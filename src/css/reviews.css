@@ -100,6 +100,8 @@
 
   .reviews-item {
     max-width: 343px;
+    width: calc((100% - 18px) / 2);
+  }
   }
 
   .reviews-subtitle {
@@ -118,5 +120,9 @@
 
   .reviews-list {
     gap: 25px;
+  }
+
+  .reviews-item {
+    width: calc((100% - 50px) / 3);
   }
 }
