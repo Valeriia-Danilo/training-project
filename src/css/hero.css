@@ -1,31 +1,24 @@
 .hero {
   background-color: #576f35;
-  background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
-    linear-gradient (rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-    url(/images/hero-img/hero-mob.jpg);
-  background-position: right;
+  background-image: linear-gradient(to bottom, #576f35 55%, transparent 45%),
+    linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+    url('../images/hero-img/hero-mob.jpg');
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto auto;
   margin: 0 auto;
-  padding-top: 238px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 410px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 320px),
+  (min-resolution: 375px),
   (min-resolution: 192dppx) {
   .hero {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../images/hero-img/hero-mob-2x.jpg);
+    background-image: linear-gradient(to bottom, #576f35 55%, transparent 45%),
+      linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('../images/hero-img/hero-mob-2x.jpg');
   }
-}
-
-.hero-toper {
-  padding-top: 100px;
-  padding-bottom: 40px;
 }
 
 .hero-title {
@@ -39,77 +32,73 @@
 
 .hero-text {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
+  max-width: 335px;
 }
-
-@media screen and (min-width: 375px) {
-
-  .hero {
-    background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
-      linear-gradient (rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(/images/hero-img/hero-mob.jpg);
-    width: 100%;
-  }
-}
+/* TABLET*/
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
-      linear-gradient (rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(/images/hero-img/hero-tab.jpg);
-  }
-
-  .hero-text {
-    max-width: 603px;
+    background-image: linear-gradient(to bottom, #576f35 36%, transparent 54%),
+      linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('../images/hero-img/hero-tab.jpg');
+    padding-top: 122px;
+    padding-bottom: 589px;
+    padding-left: 32px;
   }
 
   .hero-title {
     font-size: 76px;
-    margin-bottom: 25px;
+    max-width: 704px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 768px),
     (min-resolution: 192dppx) {
     .hero {
-      background-image: linear-gradient(
-          rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)
-        ),
-        url(../images/hero-img/hero-tab-2x.jpg);
-
-      padding-top: 485px;
+      background-image: linear-gradient(to bottom, #576f35 36%, transparent 54%),
+        linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+        url('../images/hero-img/hero-tab-2x.jpg');
     }
   }
 }
-
+/* DESK */
 @media screen and (min-width: 1280px) {
-
   .hero {
     background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
-      linear-gradient (rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(/images/hero-img/hero-desk.jpg);
+      linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('../images/hero-img/hero-desk.jpg');
+    background-position: right;
+    padding-top: 238px;
+    padding-bottom: 50px;
   }
-  .hero {
-    @media screen and (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 1280px),
-      (min-resolution: 192dppx) {
-      .hero {
-        background-image: linear-gradient(
-            rgba(20, 20, 20, 0.2),
-            rgba(20, 20, 20, 0.2)
-          ),
-          url(/images/hero-img/hero-desk-2x.jpg);
-        margin-left: auto;
-      }
-    }
-  }
-
   .hero-title {
     margin-bottom: 128px;
+    max-width: 502px;
+    font-weight: 600;
   }
 
   .hero-text {
+    line-height: 1.25;
     max-width: 472px;
   }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 1280px),
+  (min-resolution: 192dppx) {
+  .hero {
+    background-image: linear-gradient(to right, #576f35 55%, transparent 45%),
+      linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('../images/hero-img/hero-desk-2x.jpg');
+      background-position: right;
+      width: 650px;
+
+  }
+}
+
 }
