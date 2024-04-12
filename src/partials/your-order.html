@@ -1,3 +1,85 @@
-<section class="your-order">
-  <p>your-order</p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="your-order container">
+      <div class="section">
+        <div class="order-title-wrap">
+          <h2 class="order-title">
+            Fresh
+            <span class="order-title-span">Harvest</span> Box has got you
+            covered
+          </h2>
+          <p class="order-text">
+            Our boxes are packed with delicious, nutritious vegetables, perfect
+            for anyone looking to eat healthier or support local farmers. Order
+            your box today and start enjoying the best that nature has to offer!
+          </p>
+        </div>
+        <div class="order-wrap">
+          <form class="order-form">
+            <h3 class="form-title">
+              Ordering <span class="form-span-us">from us</span> is quick and
+              easy! Fill out <span class="form-span-form">the form</span> below
+              and we will contact you !
+            </h3>
+            <label for="user-name" class="form-label"></label
+            ><input
+              type="text"
+              class="form-input"
+              name="user-name"
+              id="user-name"
+              placeholder="Full Name"
+              required
+            /><label for="user-email" class="form-label"></label
+            ><input
+              type="email"
+              class="form-input"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              required
+            />
+            <label for="user-comment" class="form-label"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="form-comment"
+              placeholder="Comment"
+            ></textarea
+            ><button type="submit" class="form-submit">Send</button>
+          </form>
+          <div class="order-social">
+            <div class="order-img"></div>
+            <p class="order-social-text">Follow us on our social networks:</p>
+            <p class="social-link-text">
+              <a class="order-social-link" href="">instagram</a
+              ><span class="order-slash">/</span
+              ><a class="order-social-link" href="">facebook</a
+              ><span class="order-slash">/</span
+              ><a class="order-social-link" href="">youtube</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
