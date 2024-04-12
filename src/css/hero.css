@@ -2,7 +2,7 @@
   background-color: #576f35;
   background-image: linear-gradient(to bottom, #576f35 55%, transparent 45%),
     linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-    url('./images/hero-img/hero-mob.jpg');
+    url('/images/hero-img/hero-mob.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto auto;
@@ -17,7 +17,7 @@
   .hero {
     background-image: linear-gradient(to bottom, #576f35 55%, transparent 45%),
       linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('./images/hero-img/hero-mob-2x.jpg');
+      url('/images/hero-img/hero-mob-2x.jpg');
   }
 }
 
@@ -41,7 +41,7 @@
   .hero {
     background-image: linear-gradient(to bottom, #576f35 36%, transparent 54%),
       linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('./images/hero-img/hero-tab.jpg');
+      url('/images/hero-img/hero-tab.jpg');
     padding-top: 122px;
     padding-bottom: 589px;
     padding-left: 32px;
@@ -63,7 +63,7 @@
     .hero {
       background-image: linear-gradient(to bottom, #576f35 36%, transparent 54%),
         linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-        url('./images/hero-img/hero-tab-2x.jpg');
+        url('/images/hero-img/hero-tab-2x.jpg');
     }
   }
 }
@@ -72,7 +72,7 @@
   .hero {
     background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
       linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('./images/hero-img/hero-desk.jpg');
+      url('/images/hero-img/hero-desk.jpg');
     background-position: right;
     padding-top: 238px;
     padding-bottom: 50px;
@@ -94,7 +94,7 @@
   .hero {
     background-image: linear-gradient(to right, #576f35 55%, transparent 45%),
       linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('./images/hero-img/hero-desk-2x.jpg');
+      url('/images/hero-img/hero-desk-2x.jpg');
       background-position: right;
       width: 650px;
 
