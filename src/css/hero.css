@@ -15,9 +15,11 @@
   (min-resolution: 375px),
   (min-resolution: 192dppx) {
   .hero {
+
     background-image: linear-gradient(to bottom, #576f35 55%, transparent 45%),
       linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
       url('/images/hero-img/hero-mob-2x.jpg');
+
   }
 }
 
