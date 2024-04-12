@@ -53,12 +53,23 @@
   padding-bottom: 8px;
   margin: auto;
   }
-  
-  .current{
+
+
+
+  .menu-list-item:hover,
+  .menu-list-item:focus{
     background-color: #fbfbfb;
     color: #7a3145;
   }
+
+
+  /* .current{
+    background-color: #fbfbfb;
+    color: #7a3145;
+  } */
   
+
+
   .menu-button-shop{
     display: block;
    margin-left: auto;
@@ -67,14 +78,22 @@
   padding-top: 12px;
   padding-bottom: 12px;
   width: 155px;
-  background-color: #fbfbfb;
-  color: #7a3145;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+background-color: #7a3145;
+color: #fbfbfb;
   font-weight: 600;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.01em;
   }
   
+  .menu-button-shop:hover,
+  .menu-button-shop:focus{
+    
+background-color: #fbfbfb;
+  color: #7a3145;
+  }
+
   @media screen and (min-width: 768px){
     .mob-menu{
       position: absolute;
