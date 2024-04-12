@@ -13,6 +13,7 @@
 @import url('./reviews.css');
 @import url('./your-order.css');
 @import url('./footer.css');
+@import url('./menu.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
