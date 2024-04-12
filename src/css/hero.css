@@ -43,9 +43,6 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
 
   .hero {
     background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
@@ -56,9 +53,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
   .hero {
     background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
       linear-gradient (rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
@@ -90,9 +84,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
 
   .hero {
     background-image: linear-gradient(to right, #576f35 50%, transparent 50%),
