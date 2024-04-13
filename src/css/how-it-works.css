@@ -1,22 +1,28 @@
-ol {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
 .hiw-image {
   display: flex;
   justify-content: center;
   background-color: #7a3145;
 }
 
+.gradient {
+  position: relative;
+}
+
 .hiw-image img {
   border-radius: 30px;
   margin: 40px auto;
-  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3));
 }
 
+.gradient::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3));
+  border-radius: 30px;
+}
 
 .hiw-explain-bg {
   display: flex;
@@ -84,6 +90,7 @@ ol {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: #fbfbfb;
   content: counter(item);
   counter-increment: item;
   font-weight: 600;
