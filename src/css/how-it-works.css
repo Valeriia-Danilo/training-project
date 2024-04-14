@@ -1,10 +1,14 @@
+.how-it-works {
+  padding: 0;
+}
+
 .hiw-image {
   display: flex;
   justify-content: center;
   background-color: #7a3145;
 }
 
-.gradient {
+.hiw-image picture {
   position: relative;
 }
 
@@ -13,15 +17,15 @@
   margin: 40px auto;
 }
 
-.gradient::after {
+.hiw-image picture::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3));
   border-radius: 30px;
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3));
 }
 
 .hiw-explain-bg {
@@ -31,16 +35,11 @@
   background-color: #576f35;
 }
 
-.hiw-explain-bg h2 {
-  display: none;
-}
-
 .hiw-explain {
   max-width: 335px;
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .hiw-header {
   font-weight: 600;
@@ -198,6 +197,7 @@
 
   .hiw-explain-bg {
     padding-top: 100px;
+    max-width: 650px;
   }
 
 }

@@ -31,6 +31,7 @@ textarea {
 }
 
 .order-text {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
@@ -100,11 +101,13 @@ textarea {
   border-color: #7a3145;
 }
 
-.form-input:invalid {
+.form-input:not(:placeholder-shown):invalid,
+.form-comment:not(:placeholder-shown):invalid {
   border-color: #e74a3b;
 }
 
-.form-input:valid {
+.form-input:not(:placeholder-shown):valid,
+.form-comment:not(:placeholder-shown):valid {
   border-color: #3cbc81;
 }
 
@@ -143,7 +146,6 @@ textarea {
 .form-submit:focus {
   background-color: #fbfbfb;
   color: #7a3145;
-  border: 1px solid rgba(251, 251, 251, 0.2);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 1px 0 rgba(46, 47, 66, 0.32), 0 1px 6px 0 rgba(46, 47, 66, 0.16);
 }
@@ -173,7 +175,7 @@ textarea {
 
 .order-social-link:hover,
 .order-social-link:focus {
-  color: rgba(251, 251, 251, 0.5);
+  color: #7a3145;
 }
 
 .order-social-link:active {
@@ -185,17 +187,30 @@ textarea {
 }
 
 .order-img {
+  display: block;
+  position: relative;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.yo-img {
   border-radius: 15px;
   width: 100%;
   height: 273px;
-  margin-bottom: 20px;
+}
+
+.order-img::after {
+  content: '';
+  position: absolute;
   background-image: linear-gradient(
-      rgba(20, 20, 20, 0.3),
-      rgba(20, 20, 20, 0.3)
-    ),
-    url(../src/images/order-img/socialbg-mob.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+    rgba(20, 20, 20, 0.3),
+    rgba(20, 20, 20, 0.3)
+  );
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -296,30 +311,9 @@ textarea {
   }
 
   .order-img {
-    border-radius: 15px;
-    width: 100%;
-    height: 273px;
     margin-bottom: 50px;
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(../src/images/order-img/socialbg-tab.png);
-    background-repeat: no-repeat;
-    background-position: center center;
   }
 
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(20, 20, 20, 0.3),
-          rgba(20, 20, 20, 0.3)
-        ),
-        url(../src/images/order-img/socialbg-tab-2x.png);
-    }
-  }
   .order-social-text {
     font-size: 18px;
     line-height: 1.11;
@@ -354,32 +348,6 @@ textarea {
   .order-form,
   .order-social {
     padding: 50px;
-  }
-
-  .order-img {
-    border-radius: 15px;
-    width: 100%;
-    height: 273px;
-    margin-bottom: 50px;
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(../src/images/order-img/socialbg-desk.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(20, 20, 20, 0.3),
-          rgba(20, 20, 20, 0.3)
-        ),
-        url(../images/order-img/socialbg-desk-2x.png);
-    }
   }
 
   .order-social-link {
