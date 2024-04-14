@@ -13,7 +13,7 @@
   margin: 0 auto;
   
 }
- /* Hover */
+/* Hover */
  .vegetables-item:hover .vegetables-img{
   filter: drop-shadow(1px 1px 40px rgb(150, 206, 150)); 
   transition: 1s;
@@ -27,11 +27,6 @@
   transition: 1s; 
   display: block; 
 }
-.vegetables-item:hover{
-    
- }
-
-
 .vegetables-title-cont{
   margin-bottom: 40px;
   
@@ -69,9 +64,6 @@ height: 379px;
 background-color: #fbfbfb;
 }
 
-  .vegetables-link{
-    
-}
 .vegetables-info{
   padding-top: 32px;
   padding-left: 26px;
@@ -105,8 +97,6 @@ height: 243px;}
   width: 768px;
   flex-wrap: wrap;
   flex-direction: row;
-  /* padding-bottom: 100px;
-  padding-top: 100px; */
  padding-left: 32px;
 padding-right: 32px; 
 }
