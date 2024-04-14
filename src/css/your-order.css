@@ -213,13 +213,13 @@ textarea {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero {
+/*   .hero {
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.3),
         rgba(20, 20, 20, 0.3)
       ),
       url(../src/images/order-img/socialbg-mob-2x.png);
-  }
+  } */
 }
 
 .order-social-text {
