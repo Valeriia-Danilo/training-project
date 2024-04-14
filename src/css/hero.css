@@ -5,7 +5,6 @@
 .hero-container,
 .hero-section {
   padding: 0;
-  
 }
 
 .hero-toper {
@@ -43,12 +42,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 374px) {
-.hero-title {
-  font-weight: 400;
-
-}
-}
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
