@@ -43,6 +43,13 @@
   margin: 0 auto;
 }
 
+@media (max-width: 374px) {
+.hero-title {
+  font-weight: 400;
+
+}
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   .background {
@@ -58,6 +65,10 @@
 @media screen and (min-width: 768px) {
   .hero-toper {
     padding: 122px 32px 50px 23px;
+  }
+
+  .hero-title {
+    margin-bottom: 25px;
   }
 
   .background {
@@ -103,6 +114,7 @@
   .hero-title {
     max-width: 502px;
     font-weight: 600;
+    margin-bottom: 128px;
   }
 
   .hero-text {
