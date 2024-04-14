@@ -1,22 +1,116 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./how-it-works.css');
+@import url('./advertisement.css');
+@import url('./vegetables.css');
+@import url('./reviews.css');
+@import url('./your-order.css');
+@import url('./footer.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Reset styles */
+body {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  /* color: #fbfbfb; */
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .adver {
   padding: 80px 10px;
 }
 
 .advertisement-text span {
-  display: flex;
-  padding-top: 3px;
+  display: block;
   padding-left: 10px;
+  padding-top: 3px;
   color: #fbfbfb;
-  width: 355px;
   border-radius: 12px;
   background: #576f35;
-  position: relative;
-  right: 10px;
+  margin-right: -10px;
+  margin-left: -10px;
   margin-bottom: 3px;
 }
 .advertisement-text {
-  display: inline-block;
-  max-width: 355px;
+  /* display: block; */
+  width: 100%;
   font-weight: 600;
   font-size: 48px;
   line-height: 1.04;
@@ -48,7 +142,8 @@
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 16px;
-    right: 16px;
+    margin-right: -16px;
+    margin-left: -16px;
     width: 736px;
     margin-bottom: -7px;
   }
@@ -76,7 +171,8 @@
     padding-top: 0;
     padding-left: 13px;
     width: 808px;
-    margin-right: -16px;
+    margin-right: 7px;
+    padding-bottom: 6px;
   }
 
   .advertisement-text {
