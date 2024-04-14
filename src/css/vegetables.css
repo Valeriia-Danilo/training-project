@@ -1,3 +1,140 @@
-.vegetables {
-  background-color: #0edbff;
+/* .container{
+  width: 375px;
+} */
+.vegetables-cont{
+  width: 375px;
+  display: flex; 
+  flex-direction: column;
+  max-width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #7a3145;
+  margin: 0 auto;
+  
+}
+.vegetables-title-cont{
+  margin-bottom: 40px;
+  
+}
+.vegetables-h{
+font-size: 48px;
+line-height: 1.04;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #fbfbfb;
+text-align: left;
+margin-bottom: 20px;
+}
+.vegetables-span{
+  color: rgba(251, 251, 251, 0.3);
+}
+.vegetables-text{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+color: #fbfbfb;
+text-align: left;
+}
+.vegetables-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.vegetables-item{
+
+  border-radius: 40px;
+width: 334px;
+height: 379px;
+background-color: #fbfbfb;
+}
+ .vegetables-item:hover{
+ }
+  .vegetables-link{
+    
+}
+.vegetables-info{
+  padding-top: 32px;
+  padding-left: 26px;
+}
+.vegetables-name{
+  
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.01em;
+color: #7a3145;
+margin-bottom: 12px;
+text-align: left;
+}
+.vegetables-price{
+font-weight: 600;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414;
+text-align: left;
+margin-bottom: 14px;
+}
+.vegetables-img{
+  background-color: transparent;
+  width: 282px;
+height: 243px;
+}
+@media screen and (min-width: 768px){
+.vegetables-cont{
+  width: 768px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 100px;
+  padding-top: 100px;;
+ padding-left: 32px;
+padding-right: 32px; 
+}
+.vegetables-text{
+  font-size: 16px;
+line-height: 1.25;
+}
+.vegetables-list {
+  display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 28px 20px; 
+}
+
+.vegetables-item {
+  width: calc((100% - 20px) / 2);
+}
+.vegetables-h{
+  font-weight: 600;
+font-size: 64px;
+  margin-bottom: 50px;
+}
+.vegetables-title-cont{
+  padding-right: 110px;
+}
+.vegetables-price{
+margin-bottom: 10px;
+}
+}
+@media screen and (min-width: 1280px){
+  .vegetables-cont{
+    width:  1280px;
+  padding-left: 100px;
+  padding-right: 100px;
+  } 
+  .vegetables-h{
+    margin-bottom: 25px;
+  }
+  .vegetables-item {
+    width: calc((100% - 21px * 2) / 3);
+  }
+  .vegetables-title-cont{
+  padding-right: 454px;
+  margin-bottom: 50px;
+  }
+  .vegetables-list {
+  gap: 28px 21px; 
+  }
 }
