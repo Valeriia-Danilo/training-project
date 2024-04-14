@@ -14,9 +14,10 @@
   
 }
  /* Hover */
- .vegetables-img:hover{
-  filter: drop-shadow(1px 1px 40px rgb(150, 206, 150));
+ .vegetables-item:hover .vegetables-img{
+  filter: drop-shadow(1px 1px 40px rgb(150, 206, 150)); 
   transition: 1s;
+  transform: scale(1.1);
 }
 .vegetables-list {
   display: block; 
@@ -26,9 +27,9 @@
   transition: 1s; 
   display: block; 
 }
-.vegetables-img:hover {
-  transform: scale(1.1); 
-}  
+.vegetables-item:hover{
+    
+ }
 
 
 .vegetables-title-cont{
@@ -67,8 +68,7 @@ max-width: 334px;
 height: 379px;
 background-color: #fbfbfb;
 }
- .vegetables-item:hover{
- }
+
   .vegetables-link{
     
 }
@@ -147,7 +147,7 @@ margin-bottom: 10px;
     margin-bottom: 25px;
   }
   .vegetables-item {
-    max-width: calc((100% - 21px * 2) / 3);
+    max-width: calc((100% - 22px * 2) / 3);
   }
   .vegetables-title-cont{
   padding-right: 454px;
