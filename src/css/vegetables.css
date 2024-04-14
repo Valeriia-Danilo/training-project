@@ -1,6 +1,8 @@
-
+.section-vegetables{
+  background-color: #7a3145;
+}
 .vegetables-cont{
-  width: 375px;
+   width: 375px; 
   display: flex; 
   flex-direction: column;
   max-width: 100%;
@@ -8,10 +10,27 @@
   padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #7a3145;
   margin: 0 auto;
   
 }
+ /* Hover */
+ .vegetables-img:hover{
+  filter: drop-shadow(1px 1px 40px rgb(150, 206, 150));
+  transition: 1s;
+}
+.vegetables-list {
+  display: block; 
+  overflow: hidden;
+}
+.vegetables-img {
+  transition: 1s; 
+  display: block; 
+}
+.vegetables-img:hover {
+  transform: scale(1.1); 
+}  
+
+
 .vegetables-title-cont{
   margin-bottom: 40px;
   
@@ -80,18 +99,7 @@ margin-bottom: 14px;
   background-color: transparent;
   width: 282px;
 height: 243px;}
-  /* Hover */
-  .vegetables-list {
-    display: inline-block; 
-    overflow: hidden; /* Скрываем всё за контуром */
-  }
-  .vegetables-img {
-    transition: 1s; /* Время эффекта */
-    display: block; 
-  }
-  .vegetables-img:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
-  }
+ 
 @media screen and (min-width: 768px){
 .vegetables-cont{
   width: 768px;
