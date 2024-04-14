@@ -1,6 +1,4 @@
-/* .container{
-  width: 375px;
-} */
+
 .vegetables-cont{
   width: 375px;
   display: flex; 
@@ -45,7 +43,8 @@ text-align: left;
 .vegetables-item{
 
   border-radius: 40px;
-width: 334px;
+  width: 100%;
+max-width: 334px;
 height: 379px;
 background-color: #fbfbfb;
 }
@@ -93,6 +92,7 @@ height: 243px;
 padding-right: 32px; 
 }
 .vegetables-text{
+  min-width: 626px;
   font-size: 16px;
 line-height: 1.25;
 }
@@ -120,7 +120,7 @@ margin-bottom: 10px;
 }
 @media screen and (min-width: 1280px){
   .vegetables-cont{
-    width:  1280px;
+  width:  1280px;
   padding-left: 100px;
   padding-right: 100px;
   } 
