@@ -14,7 +14,7 @@
 
 .hero-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 13vw;
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -40,6 +40,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .hero-title {
+    font-size: 48px;
+  }
 }
 
 
