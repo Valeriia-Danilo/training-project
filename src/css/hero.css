@@ -46,8 +46,11 @@
 @media (max-width: 374px) {
 .hero-title {
   font-weight: 400;
+  font-size: 40px;
 
 }
+
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
