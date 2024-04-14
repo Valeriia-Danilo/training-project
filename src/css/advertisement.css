@@ -1,3 +1,89 @@
-.advertisement {
-  background-color: #308105;
+.adver {
+  padding: 80px 10px;
+}
+
+.advertisement-text span {
+  display: flex;
+  padding-top: 3px;
+  padding-left: 10px;
+  color: #fbfbfb;
+  width: 355px;
+  border-radius: 12px;
+  background: #576f35;
+  position: relative;
+  right: 10px;
+  margin-bottom: 3px;
+}
+.advertisement-text {
+  display: inline-block;
+  max-width: 355px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #141414;
+  padding-bottom: 3px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 744px;
+  }
+
+  .adver {
+    max-width: 768px;
+    padding: 100px 16px;
+  }
+
+  .advertisement-text span {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    right: 16px;
+    width: 736px;
+    margin-bottom: -7px;
+  }
+
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 1.09;
+    max-width: 736px;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .adver {
+    max-width: 1280px;
+    padding: 100px 100px;
+  }
+
+  .advertisement-text span {
+    display: inline-block;
+    padding-top: 0;
+    padding-left: 13px;
+    width: 808px;
+    margin-right: -16px;
+  }
+
+  .advertisement-text {
+    display: inline-block;
+    font-size: 76px;
+    line-height: 1.05;
+    max-width: 1080px;
+    padding: 0 13px;
+  }
 }
