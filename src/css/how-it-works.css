@@ -2,6 +2,16 @@
   padding: 0;
 }
 
+.hiw-gradient {
+  background-image: linear-gradient(to bottom,
+      #7a3145 0%,
+      #7a3145 45%,
+      #576f35 45%,
+      #576f35 55%);
+  margin: 0 auto;
+  padding: 40px 0 80px 0;
+}
+
 .hiw-image {
   display: flex;
   justify-content: center;
@@ -182,8 +192,17 @@
 
 @media screen and (min-width: 1280px) {
   .how-it-works {
+
     display: flex;
     flex-direction: row;
+  }
+
+  .hiw-gradient {
+    background-image: linear-gradient(to right,
+        #7a3145 0%,
+        #7a3145 49.22%,
+        #576f35 49.22%,
+        #576f35 100%);
   }
 
   .hiw-image {
