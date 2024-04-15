@@ -1,4 +1,4 @@
-.heder-section {
+.header-section {
   background-color: transparent;
   position: absolute;
   top: 20px;
@@ -69,7 +69,7 @@ html {
     height: 40px;
   }
 
-  .heder-section {
+  .header-section {
     top: 32px;
   }
 }
@@ -84,7 +84,7 @@ html {
     padding: 17px 0;
     margin-bottom: auto;
   }
-  .heder-section {
+  .header-section {
     top: 36px;
   }
 
