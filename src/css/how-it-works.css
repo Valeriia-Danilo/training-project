@@ -3,11 +3,13 @@
 }
 
 .hiw-gradient {
-  background-image: linear-gradient(to bottom,
-      #7a3145 0%,
-      #7a3145 45%,
-      #576f35 45%,
-      #576f35 55%);
+  background-image: linear-gradient(
+    to bottom,
+    #7a3145 0%,
+    #7a3145 45%,
+    #576f35 45%,
+    #576f35 55%
+  );
   margin: 0 auto;
 }
 
@@ -27,7 +29,7 @@
 }
 
 .hiw-image picture::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -68,13 +70,11 @@
 }
 
 .hiw-list {
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 40px;
   counter-reset: item;
-
 }
 
 .hiw-item {
@@ -158,11 +158,13 @@
 
 @media screen and (min-width: 768px) {
   .hiw-gradient {
-    background-image: linear-gradient(to bottom,
-        #7a3145 0%,
-        #7a3145 54.58%,
-        #576f35 54.58%,
-        #576f35 100%);
+    background-image: linear-gradient(
+      to bottom,
+      #7a3145 0%,
+      #7a3145 54.58%,
+      #576f35 54.58%,
+      #576f35 100%
+    );
     margin: 0 auto;
   }
 
@@ -186,13 +188,11 @@
 
   .hiw-header {
     font-size: 32px;
-
   }
 
   .hiw-text {
     font-size: 16px;
     margin-top: 25px;
-
   }
 
   .hiw-item {
@@ -210,17 +210,18 @@
 
 @media screen and (min-width: 1280px) {
   .how-it-works {
-
     display: flex;
     flex-direction: row;
   }
 
   .hiw-gradient {
-    background-image: linear-gradient(to right,
-        #7a3145 0%,
-        #7a3145 49.22%,
-        #576f35 49.22%,
-        #576f35 100%);
+    background-image: linear-gradient(
+      to right,
+      #7a3145 0%,
+      #7a3145 49.22%,
+      #576f35 49.22%,
+      #576f35 100%
+    );
   }
 
   .hiw-image {
@@ -233,8 +234,7 @@
   }
 
   .hiw-explain-bg {
-    padding-top: 100px;
+    padding: 100px 100px 160px 100px;
     max-width: 650px;
   }
-
 }
