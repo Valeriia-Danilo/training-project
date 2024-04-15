@@ -157,6 +157,15 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hiw-gradient {
+    background-image: linear-gradient(to bottom,
+        #7a3145 0%,
+        #7a3145 54.58%,
+        #576f35 54.58%,
+        #576f35 100%);
+    margin: 0 auto;
+  }
+
   .hiw-image img {
     width: 640px;
     margin: 0 auto;
