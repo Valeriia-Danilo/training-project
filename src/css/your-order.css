@@ -213,13 +213,6 @@ textarea {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-/*   .hero {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(../src/images/order-img/socialbg-mob-2x.png);
-  } */
 }
 
 .order-social-text {
@@ -236,7 +229,7 @@ textarea {
   flex-wrap: wrap;
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.08333;
+  line-height: 1.08;
   letter-spacing: -0.01em;
   color: #fbfbfb;
 }
@@ -299,7 +292,7 @@ textarea {
 
   .form-submit {
     font-size: 18px;
-    line-height: 1.11111;
+    line-height: 1.11;
   }
 
   .order-social {
