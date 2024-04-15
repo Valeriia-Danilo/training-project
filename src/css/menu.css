@@ -44,6 +44,11 @@
   stroke: #fbfbfb;
 }
 
+.menu-button-close:hover .close-icon,
+.menu-button-close:focus .close-icon {
+  stroke: #14141480;
+}
+
 .menu-list {
   text-align: center;
   margin-top: 188px;
