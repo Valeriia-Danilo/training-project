@@ -42,6 +42,7 @@
   justify-content: flex-start;
   flex-direction: column;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .reviews-image {
@@ -78,16 +79,16 @@
 }
 
 .reviews-list::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 .reviews-list::-webkit-scrollbar-thumb {
-  background-color: #7a3145;
-  border-radius: 50px;
+  background: #7a3145;
+  border-radius: 6px;
 }
 
 .reviews-list::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
+  background: #e7e3e4;
 }
 
 @media screen and (min-width: 768px) {
