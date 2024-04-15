@@ -9,22 +9,21 @@
       #576f35 45%,
       #576f35 55%);
   margin: 0 auto;
-  padding: 40px 0 80px 0;
 }
 
 .hiw-image {
   display: flex;
   justify-content: center;
-  background-color: #7a3145;
 }
 
 .hiw-image picture {
   position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .hiw-image img {
   border-radius: 30px;
-  margin: 40px auto;
 }
 
 .hiw-image picture::after {
@@ -42,7 +41,6 @@
   display: flex;
   justify-content: center;
   padding: 80px 20px;
-  background-color: #576f35;
 }
 
 .hiw-explain {
@@ -145,6 +143,17 @@
 .hiw-icon-text span {
   font-weight: 700;
   color: #141414;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .hiw-explain {
+    max-width: 100%;
+  }
+
+  .hiw-item {
+    min-width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
