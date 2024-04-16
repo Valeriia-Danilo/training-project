@@ -62,11 +62,14 @@ text-align: left;
 max-width: 334px;
 height: 379px;
 background-color: #fbfbfb;
+} 
+.vegetables-picture{
+  display: block;
+    max-width: 100%;
 }
 
 .vegetables-info{
-  padding-top: 32px;
-  padding-left: 26px;
+  padding: 32px 26px;
 }
 .vegetables-name{
   
