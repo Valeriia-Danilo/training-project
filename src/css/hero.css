@@ -31,12 +31,10 @@
   width: 100%;
   height: 370px;
   background-color: #576f35;
-  background-image: linear-gradient(
-      to bottom,
+  background-image: linear-gradient(to bottom,
       rgba(20, 20, 20, 0.2),
-      rgba(20, 20, 20, 0.2)
-    ),
-    url('/images/hero-img/hero-mob.jpg');
+      rgba(20, 20, 20, 0.2)),
+    url('/images/hero-img/hero-mob.avif');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -50,14 +48,12 @@
 
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+(min-resolution: 192dpi) {
   .background {
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url('/images/hero-img/hero-mob-2x.jpg');
+        rgba(20, 20, 20, 0.2)),
+      url('/images/hero-img/hero-mob-2x.avif');
   }
 }
 
@@ -72,23 +68,19 @@
 
   .background {
     height: 539px;
-    background-image: linear-gradient(
-        to bottom,
+    background-image: linear-gradient(to bottom,
         rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url('/images/hero-img/hero-tab.jpg');
+        rgba(20, 20, 20, 0.2)),
+      url('/images/hero-img/hero-tab.avif');
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
+  (min-resolution: 192dpi) {
     .background {
-      background-image: linear-gradient(
-          to bottom,
+      background-image: linear-gradient(to bottom,
           rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)
-        ),
-        url('/images/hero-img/hero-tab-2x.jpg');
+          rgba(20, 20, 20, 0.2)),
+        url('/images/hero-img/hero-tab-2x.avif');
     }
   }
 
@@ -131,23 +123,19 @@
     max-width: 650px;
     height: 800px;
     flex: 1;
-    background-image: linear-gradient(
-        to left,
+    background-image: linear-gradient(to left,
         rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url('/images/hero-img/hero-desk.jpg');
+        rgba(20, 20, 20, 0.2)),
+      url('/images/hero-img/hero-desk.avif');
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
+  (min-resolution: 192dpi) {
     .background {
-      background-image: linear-gradient(
-          to left,
+      background-image: linear-gradient(to left,
           rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)
-        ),
-        url('/images/hero-img/hero-desk-2x.jpg');
+          rgba(20, 20, 20, 0.2)),
+        url('/images/hero-img/hero-desk-2x.avif');
     }
   }
 }
