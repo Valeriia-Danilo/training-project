@@ -1,9 +1,17 @@
-.header-section {
+.header {
   background-color: transparent;
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  padding-top: 20px;
+  width: 100%;
   left: 0;
   right: 0;
+  z-index: 50;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.headerfixed {
+  padding-top: 0;
+  background-color: rgba(87, 111, 53, 0.9);
 }
 
 .header-container {
@@ -54,6 +62,15 @@ html {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header {
+    padding-top: 32px;
+  }
+
+  .headerfixed {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
   .logo {
     padding: 11px 0;
   }
@@ -68,10 +85,6 @@ html {
     width: 40px;
     height: 40px;
   }
-
-  .header-section {
-    top: 32px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -84,8 +97,13 @@ html {
     padding: 17px 0;
     margin-bottom: auto;
   }
-  .header-section {
-    top: 36px;
+  .header {
+    padding-top: 36px;
+  }
+
+  .headerfixed {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .navigation-menu {
